@@ -69,10 +69,10 @@
 
         FUNCTION {
             bindings = <
-&trans  &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE                            &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans  &trans  &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans      &trans  &kp F6  &kp F7  &kp F8  &kp F9  &trans
-&trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans      &trans  &trans  &trans  &trans  &trans  &kp F11
-&trans  &trans  &trans  &trans                &trans                 &trans      &trans  &trans                          &trans
+&trans  &trans  &trans  &kp LS(RIGHT_BRACKET)  &kp LS(NUHS)                      &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
+&trans  &trans  &trans  &kp RIGHT_BRACKET      &kp NUHS      &trans      &trans  &kp F6  &kp F7  &kp F8  &kp F9  &trans
+&trans  &trans  &trans  &kp LS(N8)             &kp LS(N9)    &trans      &trans  &trans  &trans  &trans  &trans  &kp F11
+&trans  &trans  &trans  &trans                 &trans        &trans      &trans  &trans                          &trans
             >;
         };
 
