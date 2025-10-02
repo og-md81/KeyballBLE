@@ -60,8 +60,8 @@
             bindings = <
 &kp Q      &kp W         &kp E         &kp R      &kp T                                                &kp Y        &kp U  &kp I      &kp O    &kp P
 &kp A      &kp S         &kp D         &kp F      &kp G        &mkp LCLK                    &kp DEL    &kp H        &kp J  &kp K      &kp L    &kp BSPC
-&kp Z      &kp X         &kp C         &kp V      &kp B        &lt_to_layer_0 6 ESCAPE      &to 0      &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &kp LCTRL  &lt 3 SPACE  &mt TAB LEFT_SHIFT           &kp RSHFT  &lt 3 ENTER                             &to 0
+&kp Z      &kp X         &kp C         &kp V      &kp B        &lt_to_layer_0 6 ESCAPE      &to 0      &kp N        &kp M  &kp COMMA  &kp DOT  &kp MINUS
+&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &kp LCTRL  &lt 3 SPACE  &mt LEFT_SHIFT TAB           &kp RSHFT  &lt 3 ENTER                             &to 0
             >;
 
             sensor-bindings = <&ROTATE SCRL_DOWN SCRL_UP>;
@@ -69,26 +69,26 @@
 
         FUNCTION {
             bindings = <
-&trans  &trans  &trans  &kp LS(RIGHT_BRACKET)  &kp LS(NUHS)                      &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans  &trans  &trans  &kp RIGHT_BRACKET      &kp NUHS      &trans      &trans  &kp F6  &kp F7  &kp F8  &kp F9  &trans
-&trans  &trans  &trans  &kp LS(N8)             &kp LS(N9)    &trans      &trans  &trans  &trans  &trans  &trans  &kp F11
-&trans  &trans  &trans  &trans                 &trans        &trans      &trans  &trans                          &trans
+&trans  &trans  &trans  &kp LS(RIGHT_BRACKET)  &kp LS(NUHS)                      &kp EQUAL         &kp LEFT_BRACKET  &kp LS(NUMBER_6)      &kp EXCLAMATION  &kp QUESTION
+&trans  &trans  &trans  &kp RIGHT_BRACKET      &kp NUHS      &trans      &trans  &kp LS(NUMBER_2)  &kp LS(N7)        &kp HASH              &kp PERCENT      &trans
+&trans  &trans  &trans  &kp LS(N8)             &kp LS(N9)    &trans      &trans  &kp LS(MINUS)     &kp KP_PLUS       &kp LS(SINGLE_QUOTE)  &kp KP_MINUS     &kp SLASH
+&trans  &trans  &trans  &trans                 &trans        &trans      &trans  &trans                                                                     &trans
             >;
         };
 
         NUM {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                                           &kp NUMBER_6  &kp N7       &kp N8                &kp N9           &kp N0
-&kp F1        &kp F2        &kp F3        &kp F4        &kp F5      &kp LC(LA(KP_NUMBER_0))      &trans  &kp F6        &kp F7       &kp F8                &kp F9           &trans
-&kp F11       &kp F12       &kp F10       &kp LS(N8)    &kp LS(N9)  &trans                       &trans  &kp KP_EQUAL  &kp KP_PLUS  &kp LS(SINGLE_QUOTE)  &kp KP_SUBTRACT  &kp BACKSLASH
-&trans        &trans        &trans        &trans        &trans      &trans                       &trans  &trans                                                            &kp PIPE
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                                           &kp NUMBER_6   &kp N7       &kp N8                &kp N9           &kp N0
+&kp F1        &kp F2        &kp F3        &kp F4        &kp F5      &kp LC(LA(KP_NUMBER_0))      &trans  &kp F6         &kp F7       &kp F8                &kp F9           &trans
+&kp F11       &kp F12       &kp F10       &kp LS(N8)    &kp LS(N9)  &trans                       &trans  &kp LS(MINUS)  &kp KP_PLUS  &kp LS(SINGLE_QUOTE)  &kp KP_SUBTRACT  &kp SLASH
+&trans        &trans        &trans        &trans        &trans      &trans                       &trans  &trans                                                             &trans
             >;
         };
 
         ARROW {
             bindings = <
 &kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                              &kp HOME        &kp PAGE_UP     &kp UP_ARROW    &trans     &trans
-&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END         &trans      &to 2   &trans          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans
+&kp HOME        &kp LA(LEFT)            &kp DOWN_ARROW  &kp LA(RIGHT)            &kp END         &trans      &to 2   &trans          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans
 &kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans          &trans      &to 1   &kp END         &kp PAGE_DOWN   &trans          &trans     &trans
 &trans          &trans                  &trans          &trans                   &kp LANGUAGE_2  &trans      &trans  &kp LANGUAGE_1                                             &trans
             >;
