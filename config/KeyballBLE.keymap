@@ -87,10 +87,10 @@
 
         ARROW {
             bindings = <
-&kp QUESTION      &kp LC(LS(TAB))  &kp EXCL          &kp LC(TAB)      &trans                              &kp HOME        &kp PAGE_UP     &kp UP_ARROW     &trans       &kp PERCENT
-&kp LS(NUMBER_6)  &kp LS(N7)       &kp LS(NUMBER_2)  &kp APOS         &kp SEMI        &trans      &to 2   &kp HASH        &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT    &trans
-&kp LS(N8)        &kp LS(N9)       &kp EQUAL         &kp LS(INT_YEN)  &kp INT_RO      &trans      &to 1   &kp END         &kp PAGE_DOWN   &kp LG(LS(TAB))  &kp LG(TAB)  &trans
-&trans            &trans           &trans            &trans           &kp LANGUAGE_2  &trans      &trans  &kp LANGUAGE_1                                                &trans
+&kp QUESTION      &kp LEFT_BRACKET  &kp EXCL          &kp LA(LS(TAB))  &kp LA(TAB)                         &kp HOME        &kp PAGE_UP     &kp UP_ARROW     &trans       &kp PERCENT
+&kp LS(NUMBER_6)  &kp LS(N7)        &kp LS(NUMBER_2)  &kp APOS         &kp SEMI        &trans      &to 2   &kp HASH        &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT    &trans
+&kp LS(N8)        &kp LS(N9)        &kp EQUAL         &kp LS(INT_YEN)  &kp INT_RO      &trans      &to 1   &kp END         &kp PAGE_DOWN   &kp LS(LC(TAB))  &kp LC(TAB)  &trans
+&trans            &trans            &trans            &trans           &kp LANGUAGE_2  &trans      &trans  &kp LANGUAGE_1                                                &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
