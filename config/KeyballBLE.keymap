@@ -87,10 +87,10 @@
 
         ARROW {
             bindings = <
-&kp QUESTION      &kp LC(LS(TAB))         &trans  &kp LC(TAB)              &trans                              &kp HOME        &kp PAGE_UP     &kp UP_ARROW    &trans     &kp PERCENT
-&kp LS(NUMBER_6)  &kp LA(LEFT)            &trans  &kp LA(RIGHT)            &trans          &trans      &to 2   &kp HASH        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp RSHFT
-&trans            &kp LG(LS(LEFT_ARROW))  &trans  &kp LG(LS(RIGHT_ARROW))  &trans          &trans      &to 1   &kp END         &kp PAGE_DOWN   &trans          &trans     &trans
-&trans            &trans                  &trans  &trans                   &kp LANGUAGE_2  &trans      &trans  &kp LANGUAGE_1                                             &trans
+&kp QUESTION      &kp LC(LS(TAB))         &trans         &kp LC(TAB)              &trans                              &kp HOME        &kp PAGE_UP     &kp UP_ARROW    &trans     &kp PERCENT
+&kp LS(NUMBER_6)  &kp LA(LEFT)            &kp LA(RIGHT)  &mkp MB4                 &mkp MB5        &trans      &to 2   &kp HASH        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp RSHFT
+&trans            &kp LG(LS(LEFT_ARROW))  &trans         &kp LG(LS(RIGHT_ARROW))  &trans          &trans      &to 1   &kp END         &kp PAGE_DOWN   &trans          &trans     &trans
+&trans            &trans                  &trans         &trans                   &kp LANGUAGE_2  &trans      &trans  &kp LANGUAGE_1                                             &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
@@ -107,10 +107,10 @@
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp LCLK  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                             &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans     &trans  &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp LCLK  &trans  &mkp RCLK  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans     &trans  &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
             >;
         };
 
