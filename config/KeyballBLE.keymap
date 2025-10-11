@@ -71,7 +71,7 @@
             bindings = <
 &kp QUESTION      &kp LEFT_BRACKET  &kp EXCL          &kp LS(LEFT_BRACKET)  &kp LS(EQUAL)                       &kp DOLLAR      &kp LS(INT_RO)  &kp LS(RIGHT_BRACKET)  &kp LS(NUHS)  &kp PERCENT
 &kp LS(NUMBER_6)  &kp LS(N7)        &kp LS(NUMBER_2)  &kp SINGLE_QUOTE      &kp SEMICOLON  &trans      &trans   &kp HASH        &trans          &kp RIGHT_BRACKET      &kp LS(NUHS)  &trans
-&trans            &trans            &kp EQUAL         &kp LS(INT_YEN)       &kp INT_RO     &trans      &trans   &trans          &trans          &kp LS(N8)             &kp LS(N9)    &kp KP_MINUS
+&trans            &trans            &kp EQUAL         &kp LS(INT_YEN)       &kp INT_RO     &mo 6       &trans   &trans          &trans          &kp LS(N8)             &kp LS(N9)    &kp KP_MINUS
 &trans            &trans            &trans            &trans                &trans         &trans      &kp DEL  &kp LANGUAGE_1                                                       &trans
             >;
         };
@@ -87,10 +87,10 @@
 
         ARROW {
             bindings = <
-&kp QUESTION      &kp LEFT_BRACKET  &kp EXCL          &kp LS(LEFT_BRACKET)  &kp LS(EQUAL)                                &kp PAGE_UP    &kp LC(LS(TAB))  &kp UP_ARROW    &kp LC(TAB)        &kp PERCENT
-&kp LS(NUMBER_6)  &kp LS(N7)        &kp LS(NUMBER_2)  &kp APOS              &kp SEMI       &trans              &kp HOME  &kp HASH       &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT          &trans
-&kp CAPS          &trans            &kp EQUAL         &kp LS(INT_YEN)       &kp INT_RO     &trans              &kp END   &kp PAGE_DOWN  &kp LC(PAGE_UP)  &trans          &kp LC(PAGE_DOWN)  &trans
-&trans            &trans            &trans            &trans                &kp TAB        &kp LANGUAGE_2      &trans    &trans                                                             &trans
+&kp QUESTION      &kp LEFT_BRACKET  &kp EXCL          &kp LS(LEFT_BRACKET)  &kp LS(EQUAL)                              &kp PAGE_UP    &kp LC(LS(TAB))  &kp UP_ARROW    &kp LC(TAB)        &kp PERCENT
+&kp LS(NUMBER_6)  &kp LS(N7)        &kp LS(NUMBER_2)  &kp APOS              &kp SEMI       &trans              &trans  &kp HASH       &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT          &trans
+&kp CAPS          &trans            &kp EQUAL         &kp LS(INT_YEN)       &kp INT_RO     &trans              &trans  &kp PAGE_DOWN  &kp LC(PAGE_UP)  &trans          &kp LC(PAGE_DOWN)  &trans
+&trans            &trans            &trans            &trans                &kp TAB        &kp LANGUAGE_2      &trans  &trans                                                             &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
