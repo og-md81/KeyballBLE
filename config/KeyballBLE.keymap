@@ -70,7 +70,7 @@
         FUNCTION {
             bindings = <
 &kp QUESTION      &kp LEFT_BRACKET  &kp EXCL          &kp LS(LEFT_BRACKET)  &kp LS(EQUAL)                       &kp DOLLAR      &kp LS(INT_RO)  &kp LS(RIGHT_BRACKET)  &kp LS(NUHS)  &kp PERCENT
-&kp LS(NUMBER_6)  &kp LS(N7)        &kp LS(NUMBER_2)  &kp SINGLE_QUOTE      &kp SEMICOLON  &trans      &trans   &kp HASH        &trans          &kp RIGHT_BRACKET      &kp LS(NUHS)  &trans
+&kp LS(NUMBER_6)  &kp LS(N7)        &kp LS(NUMBER_2)  &kp SINGLE_QUOTE      &kp SEMICOLON  &trans      &trans   &kp HASH        &trans          &kp RIGHT_BRACKET      &kp NUHS      &trans
 &trans            &trans            &kp EQUAL         &kp LS(INT_YEN)       &kp INT_RO     &mo 6       &trans   &trans          &trans          &kp LS(N8)             &kp LS(N9)    &kp KP_MINUS
 &trans            &trans            &trans            &trans                &trans         &trans      &kp DEL  &kp LANGUAGE_1                                                       &mo 4
             >;
