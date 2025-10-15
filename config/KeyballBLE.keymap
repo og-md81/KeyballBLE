@@ -87,7 +87,7 @@
 
         ARROW {
             bindings = <
-&kp QUESTION      &kp LEFT_BRACKET  &kp EXCL          &kp LS(LEFT_BRACKET)  &kp LS(EQUAL)                              &kp PAGE_UP    &kp LC(LS(TAB))  &kp UP_ARROW    &kp LC(TAB)        &kp PERCENT
+&kp QUESTION      &kp LEFT_BRACKET  &kp EXCL          &kp LS(LEFT_BRACKET)  &kp LS(EQUAL)                              &kp PAGE_UP    &kp LS(TAB)      &kp UP_ARROW    &kp TAB            &kp PERCENT
 &kp LS(NUMBER_6)  &kp LS(N7)        &kp LS(NUMBER_2)  &kp APOS              &kp SEMI       &trans              &trans  &kp HASH       &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT          &trans
 &kp CAPS          &trans            &kp EQUAL         &kp LS(INT_YEN)       &kp INT_RO     &trans              &trans  &kp PAGE_DOWN  &kp LC(PAGE_UP)  &trans          &kp LC(PAGE_DOWN)  &trans
 &trans            &trans            &trans            &trans                &kp TAB        &kp LANGUAGE_2      &trans  &trans                                                             &trans
