@@ -80,10 +80,10 @@
 
         NUM {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                                             &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp LS(APOS)   &kp SLASH
-&trans  &trans  &trans  &trans  &trans  &kp LC(LA(KP_NUMBER_0))      &trans        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LS(MINUS)  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                       &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_PLUS    &kp KP_MINUS
-&trans  &trans  &trans  &trans  &trans  &trans                       &trans        &trans                                                   &trans
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                                             &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp LS(APOS)   &kp SLASH
+&trans        &trans        &trans        &trans        &trans  &kp LC(LA(KP_NUMBER_0))      &trans        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LS(MINUS)  &trans
+&trans        &trans        &trans        &trans        &trans  &trans                       &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_PLUS    &kp KP_MINUS
+&trans        &trans        &trans        &trans        &trans  &trans                       &trans        &trans                                                   &trans
             >;
         };
 
@@ -100,9 +100,9 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                         &trans  &mkp MB4   &mkp MB5   &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &mkp LCLK      &trans  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans
-&trans  &trans  &trans  &trans  &trans  &mkp RCLK      &trans  &trans  &trans     &trans     &trans     &trans
+&trans  &trans  &trans  &trans  &trans                         &trans  &trans     &trans     &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &mkp LCLK      &trans  &trans  &mkp LCLK  &trans     &mkp RCLK  &trans
+&trans  &trans  &trans  &trans  &trans  &mkp RCLK      &trans  &trans  &mkp MB4   &mkp MCLK  &mkp MB5   &trans
 &trans  &trans  &trans  &trans  &trans  &trans         &trans  &trans                                   &trans
             >;
         };
