@@ -24,6 +24,12 @@
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <20 21>;
         };
+
+        at_shift2 {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <1 42>;
+            layers = <2>;
+        };
     };
 
     macros {
