@@ -85,10 +85,10 @@
 
         NUM {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                             &kp NUMBER_6  &kp NUMBER_7  &kp N8        &kp N9         &kp N0
-&trans        &trans        &trans        &trans        &trans  &trans      &kp LS(MINUS)  &kp KP_PLUS   &kp KP_MINUS  &kp LS(APOS)  &kp LS(SLASH)  &trans
-&trans        &trans        &trans        &trans        &trans  &trans      &trans         &trans        &trans        &trans        &trans         &trans
-&trans        &trans        &trans        &trans        &trans  &trans      &trans         &trans                                                   &trans
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                             &kp NUMBER_6  &kp NUMBER_7  &kp N8        &kp N9     &kp N0
+&trans        &trans        &trans        &trans        &trans  &trans      &kp LS(MINUS)  &kp KP_PLUS   &kp KP_MINUS  &kp LS(APOS)  &kp SLASH  &trans
+&trans        &trans        &trans        &trans        &trans  &trans      &trans         &trans        &trans        &trans        &trans     &trans
+&trans        &trans        &trans        &trans        &trans  &trans      &trans         &trans                                               &trans
             >;
         };
 
