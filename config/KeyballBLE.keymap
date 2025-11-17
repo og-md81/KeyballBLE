@@ -30,6 +30,16 @@
             bindings = <&kp LS(N7)>;
             key-positions = <32 33>;
         };
+
+        lang1 {
+            bindings = <&kp LANG1>;
+            key-positions = <18 19>;
+        };
+
+        lang2 {
+            bindings = <&kp LANGUAGE_2>;
+            key-positions = <13 12>;
+        };
     };
 
     macros {
@@ -67,7 +77,7 @@
         default_layer {
             bindings = <
 &kp Q           &mt LEFT_GUI W  &kp E         &kp R      &kp T                                        &kp Y        &kp U  &kp I      &kp O    &kp P
-&kp A           &kp S           &kp D         &kp F      &kp G      &mkp LCLK         &trans          &kp H        &kp J  &kp K      &kp L    &mo 5
+&kp A           &kp S           &kp D         &kp F      &kp G      &mkp LCLK         &kp KP_PLUS     &kp H        &kp J  &kp K      &kp L    &mo 5
 &kp Z           &kp X           &kp C         &kp V      &kp B      &lt 2 ESCAPE      &kp INT_HENKAN  &kp N        &kp M  &kp COMMA  &kp DOT  &kp MINUS
 &kp LEFT_SHIFT  &kp LEFT_WIN    &kp LEFT_ALT  &kp LCTRL  &kp SPACE  &mo 1             &kp BACKSPACE   &lt 3 ENTER                             &kp RSHIFT
             >;
