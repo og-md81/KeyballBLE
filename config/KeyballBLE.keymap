@@ -88,27 +88,27 @@
         FUNCTION {
             bindings = <
 &kp QUESTION      &kp LEFT_BRACKET  &kp EXCL          &kp LS(LEFT_BRACKET)  &kp LS(EQUAL)                       &kp DOLLAR  &kp LS(INT_RO)  &kp LS(RIGHT_BRACKET)  &kp LS(NUHS)  &kp PERCENT
-&kp LS(NUMBER_6)  &kp LS(N7)        &kp LS(NUMBER_2)  &kp SINGLE_QUOTE      &kp SEMICOLON  &trans      &trans   &kp HASH    &trans          &kp RIGHT_BRACKET      &kp NUHS      &trans
-&trans            &trans            &kp EQUAL         &kp LS(INT_YEN)       &kp INT_RO     &mo 6       &trans   &trans      &trans          &kp LS(N8)             &kp LS(N9)    &kp KP_MINUS
+&kp LS(NUMBER_6)  &kp LS(N7)        &kp LS(NUMBER_2)  &kp SINGLE_QUOTE      &kp SEMICOLON  &trans      &trans   &kp HASH    &kp LS(APOS)    &kp RIGHT_BRACKET      &kp NUHS      &trans
+&trans            &trans            &kp EQUAL         &kp LS(INT_YEN)       &kp INT_RO     &mo 6       &trans   &trans      &kp SLASH       &kp LS(N8)             &kp LS(N9)    &kp KP_MINUS
 &trans            &trans            &trans            &trans                &trans         &trans      &kp DEL  &kp CAPS                                                         &trans
             >;
         };
 
         NUM {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                             &kp NUMBER_6  &kp NUMBER_7  &kp N8        &kp N9     &kp N0
-&trans        &trans        &trans        &trans        &trans  &trans      &kp LS(MINUS)  &kp KP_PLUS   &kp KP_MINUS  &kp LS(APOS)  &kp SLASH  &trans
-&trans        &trans        &trans        &trans        &trans  &trans      &trans         &trans        &trans        &trans        &trans     &trans
-&trans        &trans        &trans        &trans        &trans  &trans      &trans         &trans                                               &trans
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                             &kp NUMBER_6  &kp NUMBER_7  &kp N8  &kp N9  &kp N0
+&trans        &trans        &trans        &trans        &trans  &trans      &trans         &trans        &kp LS(APOS)  &trans  &trans  &trans
+&trans        &trans        &trans        &trans        &trans  &trans      &kp LS(MINUS)  &trans        &kp SLASH     &trans  &trans  &trans
+&trans        &trans        &trans        &trans        &trans  &trans      &trans         &trans                                      &trans
             >;
         };
 
         ARROW {
             bindings = <
-&kp QUESTION      &kp LEFT_BRACKET  &kp EXCL          &kp LS(LEFT_BRACKET)  &kp LS(EQUAL)                                &trans         &kp LS(TAB)      &kp UP_ARROW    &kp TAB            &kp PERCENT
-&kp LS(NUMBER_6)  &kp LS(N7)        &kp LS(NUMBER_2)  &kp APOS              &kp SEMI       &trans              &kp HOME  &kp PAGE_UP    &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT          &trans
-&kp CAPS          &trans            &kp EQUAL         &kp LS(INT_YEN)       &kp INT_RO     &trans              &kp END   &kp PAGE_DOWN  &kp LC(PAGE_UP)  &trans          &kp LC(PAGE_DOWN)  &trans
-&trans            &trans            &trans            &trans                &kp TAB        &kp LANGUAGE_2      &trans    &trans                                                             &trans
+&kp QUESTION      &kp LEFT_BRACKET  &kp EXCL          &kp LS(LEFT_BRACKET)  &kp LS(EQUAL)                             &trans    &kp LS(TAB)      &kp UP_ARROW    &kp TAB            &trans
+&kp LS(NUMBER_6)  &kp LS(N7)        &kp LS(NUMBER_2)  &kp APOS              &kp SEMI       &trans      &kp PAGE_UP    &kp HOME  &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT          &trans
+&kp CAPS          &trans            &kp EQUAL         &kp LS(INT_YEN)       &kp INT_RO     &trans      &kp PAGE_DOWN  &kp END   &kp LC(PAGE_UP)  &trans          &kp LC(PAGE_DOWN)  &trans
+&trans            &trans            &trans            &trans                &trans         &trans      &trans         &trans                                                        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
@@ -125,19 +125,19 @@
 
         SCROLL {
             bindings = <
-&kp F1     &kp F2     &kp F3     &kp F4     &kp F5                             &kp F6            &kp F7   &kp F8  &kp F9  &kp F10
-&kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(F)  &kp LC(G)      &trans      &trans  &kp F11           &kp F12  &trans  &trans  &trans
-&kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)      &trans      &trans  &kp LC(NUMBER_1)  &trans   &trans  &trans  &trans
-&trans     &trans     &trans     &trans     &kp LC(SPACE)  &mo 4       &trans  &trans                                     &trans
+&kp LC(NUMBER_1)  &kp LC(W)  &kp LC(E)  &kp LC(R)  &trans                              &kp F1   &kp F2   &kp F3  &kp F4  &kp F5
+&kp LC(A)         &kp LC(S)  &kp LC(D)  &kp LC(F)  &kp LC(G)      &trans      &trans   &kp F6   &kp F7   &kp F8  &kp F9  &trans
+&kp LC(Z)         &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)      &trans      &kp F10  &kp F11  &kp F12  &trans  &trans  &trans
+&trans            &trans     &trans     &trans     &kp LC(SPACE)  &mo 4       &trans   &trans                            &trans
             >;
         };
 
         layer_6 {
             bindings = <
-&bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                             &kp N7  &kp N8  &kp N9  &kp LS(APOS)   &kp SLASH
-&bt BT_CLR      &trans          &trans        &trans        &trans        &trans      &kp LS(MINUS)  &kp N4  &kp N5  &kp N6  &kp LS(MINUS)  &trans
-&bt BT_CLR_ALL  &studio_unlock  &bootloader   &trans        &trans        &trans      &kp N0         &kp N1  &kp N2  &kp N3  &kp KP_PLUS    &trans
-&trans          &trans          &trans        &trans        &trans        &trans      &trans         &trans                                 &trans
+&bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                      &kp N7  &kp N8  &kp N9  &kp LS(APOS)   &kp SLASH
+&bt BT_CLR      &trans          &trans        &trans        &trans        &trans      &trans  &kp N4  &kp N5  &kp N6  &kp LS(MINUS)  &trans
+&bt BT_CLR_ALL  &studio_unlock  &bootloader   &trans        &trans        &trans      &kp N0  &kp N1  &kp N2  &kp N3  &kp KP_PLUS    &trans
+&trans          &trans          &trans        &trans        &trans        &trans      &trans  &trans                                 &trans
             >;
         };
     };
