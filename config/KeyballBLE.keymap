@@ -107,7 +107,7 @@
             bindings = <
 &kp QUESTION      &kp LEFT_BRACKET  &kp EXCL          &kp LS(LEFT_BRACKET)  &kp LS(EQUAL)                             &trans    &kp LS(TAB)      &kp UP_ARROW    &kp TAB            &trans
 &kp LS(NUMBER_6)  &kp LS(N7)        &kp LS(NUMBER_2)  &kp APOS              &kp SEMI       &trans      &kp PAGE_UP    &kp HOME  &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT          &trans
-&kp CAPS          &trans            &kp EQUAL         &kp LS(INT_YEN)       &kp INT_RO     &trans      &kp PAGE_DOWN  &kp END   &kp LC(PAGE_UP)  &trans          &kp LC(PAGE_DOWN)  &trans
+&trans            &trans            &kp EQUAL         &kp LS(INT_YEN)       &kp INT_RO     &trans      &kp PAGE_DOWN  &kp END   &kp LC(PAGE_UP)  &trans          &kp LC(PAGE_DOWN)  &trans
 &trans            &trans            &trans            &trans                &trans         &trans      &trans         &trans                                                        &trans
             >;
 
