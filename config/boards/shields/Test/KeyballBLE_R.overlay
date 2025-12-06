@@ -17,6 +17,7 @@
 };
 
 &zip_temp_layer {
+    require-prior-idle-ms = <200>;
     excluded-positions = <
         18 // J mb1
         20 // L mb2
@@ -34,6 +35,11 @@
         device = <&trackball>;
 
         input-processors = <&zip_temp_layer 4 10000>;
+
+        scroller {
+            layers = <1>;
+            input-processors = <&zip_xy_to_scroll_mapper>;
+        };
 
     };
 };
@@ -73,7 +79,7 @@
         reg = <0>;
         spi-max-frequency = <2000000>;
         irq-gpios = <&gpio0 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-        scroll-layers = <1 5>;
+        scroll-layers = <5>;
     };
 };
 
