@@ -61,8 +61,8 @@
             key-positions = <2 3>;
         };
 
-        colon {
-            bindings = <&kp APOS>;
+        scroll {
+            bindings = <&mo 5>;
             key-positions = <19 20>;
         };
 
@@ -106,10 +106,10 @@
 
         default_layer {
             bindings = <
-&kp Q           &mt LEFT_GUI W  &kp E         &kp R      &kp T                                        &kp Y        &kp U  &kp I      &kp O    &kp P
-&kp A           &kp S           &kp D         &kp F      &kp G      &mkp LCLK         &kp LS(SEMI)    &kp H        &kp J  &kp K      &kp L    &lt 5 MINUS
-&kp Z           &kp X           &kp C         &kp V      &kp B      &lt 2 ESCAPE      &kp INT_HENKAN  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LEFT_SHIFT  &kp LEFT_WIN    &kp LEFT_ALT  &kp LCTRL  &kp SPACE  &lt 1 TAB         &kp BACKSPACE   &lt 3 ENTER                             &kp RSHIFT
+&kp Q             &mt LEFT_GUI W  &kp E         &kp R      &kp T                                     &kp Y        &kp U  &kp I      &kp O    &kp P
+&kp A             &kp S           &kp D         &kp F      &kp G      &mkp LCLK      &kp LS(SEMI)    &kp H        &kp J  &kp K      &kp L    &lt 5 MINUS
+&mt LEFT_SHIFT Z  &kp X           &kp C         &kp V      &kp B      &mo 2          &kp INT_HENKAN  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
+&kp ESCAPE        &kp LEFT_WIN    &kp LEFT_ALT  &kp LCTRL  &kp SPACE  &lt 1 TAB      &kp BACKSPACE   &lt 3 ENTER                             &kp RSHIFT
             >;
 
             sensor-bindings = <&ROTATE SCRL_DOWN SCRL_UP>;
