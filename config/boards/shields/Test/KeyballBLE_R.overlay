@@ -22,10 +22,10 @@
     excluded-positions = <
         18 // J mb1
         20 // L mb2
-        26 // mb4
-        27 // mb3
-        28 // mb5
-        34 // shift
+        30 // mb4
+        31 // mb3
+        32 // mb5
+        22 // Lshift
         37 // ctrl
     >;
 };
