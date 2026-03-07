@@ -171,10 +171,10 @@
 
         ARROW {
             bindings = <
-&kp F1          &kp F2  &kp F3  &kp F4   &kp F5                                                 &kp LC(Y)  &kp LS(TAB)      &kp UP_ARROW    &kp TAB            &trans
-&kp F6          &kp F7  &kp F8  &kp F9   &kp F10           &trans                &kp PAGE_UP    &kp HOME   &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT          &kp END
-&kp LEFT_SHIFT  &trans  &trans  &kp F11  &kp F12           &trans                &kp PAGE_DOWN  &kp LC(Z)  &kp LC(PAGE_UP)  &trans          &kp LC(PAGE_DOWN)  &trans
-&trans          &trans  &trans  &trans   &kp LG(NUMBER_1)  &kp LG(NUMBER_2)      &trans         &trans                                                         &trans
+&kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(E)  &kp LC(R)  &kp LC(T)                                              &kp LC(Y)  &kp LS(TAB)      &kp UP_ARROW    &kp TAB            &trans
+&kp LC(A)         &kp LC(S)         &kp LC(D)  &kp LC(F)  &kp LC(G)         &trans                &kp PAGE_UP    &kp HOME   &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT          &kp END
+&kp LEFT_SHIFT    &kp LC(X)         &kp LC(C)  &kp LC(V)  &kp LC(B)         &trans                &kp PAGE_DOWN  &kp LC(Z)  &kp LC(PAGE_UP)  &kp F2          &kp LC(PAGE_DOWN)  &trans
+&trans            &trans            &trans     &trans     &kp LG(NUMBER_1)  &kp LG(NUMBER_2)      &trans         &trans                                                         &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
@@ -191,10 +191,10 @@
 
         SCROLL {
             bindings = <
-&kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(E)  &kp LC(R)  &trans                         &trans  &trans  &trans  &trans  &trans
-&kp LC(A)         &kp LC(S)         &kp LC(D)  &kp LC(F)  &kp LC(G)  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&kp LC(Z)         &kp LC(X)         &kp LC(C)  &kp LC(V)  &kp LC(B)  &mo 4       &trans  &trans  &trans  &trans  &trans  &kp RCTRL
-&trans            &trans            &trans     &trans     &trans     &trans      &trans  &trans                          &trans
+&kp F1   &kp F2   &kp F3  &kp F4      &kp F5                       &trans  &trans  &trans  &trans  &trans
+&kp F6   &kp F7   &kp F8  &kp F9      &kp F10  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&kp F11  &kp F12  &trans  &kp LS(F9)  &trans   &mo 4       &trans  &trans  &trans  &trans  &trans  &kp RCTRL
+&trans   &trans   &trans  &trans      &trans   &trans      &trans  &trans                          &trans
             >;
         };
 
