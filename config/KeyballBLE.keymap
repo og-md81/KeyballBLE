@@ -20,6 +20,7 @@
 / {
     combos {
         compatible = "zmk,combos";
+        timeout-ms = <30>;
 
         double_quotation {
             bindings = <&kp LS(N2)>;
