@@ -24,6 +24,7 @@
     combos {
         compatible = "zmk,combos";
         timeout-ms = <30>;
+        require-prior-idle-ms = <150>;
 
         double_quotation {
             bindings = <&kp LS(N2)>;
