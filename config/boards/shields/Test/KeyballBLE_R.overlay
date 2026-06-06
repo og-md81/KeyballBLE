@@ -22,6 +22,7 @@
     excluded-positions = <
         18 // J mb1
         20 // L mb2
+        27 // mb3
         37 // ctrl
         22 // LShift
         33 // RShift
