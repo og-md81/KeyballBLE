@@ -47,24 +47,9 @@
             key-positions = <13 12>;
         };
 
-        leftbracket {
-            bindings = <&kp LS(N8)>;
-            key-positions = <6 7>;
-        };
-
-        rightbracket {
-            bindings = <&kp LS(N9)>;
-            key-positions = <8 7>;
-        };
-
         underscore {
             bindings = <&kp LS(INTERNATIONAL_1)>;
             key-positions = <8 9>;
-        };
-
-        hash {
-            bindings = <&kp HASH>;
-            key-positions = <2 3>;
         };
 
         scroll {
