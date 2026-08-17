@@ -148,16 +148,26 @@
             >;
         };
 
-        shift_sticky: shift_sticky {
+        shift_tap_dance: shift_tap_dance {
+            compatible = "zmk,behavior-tap-dance";
+            label = "SHIFT_TAP_DANCE";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+        
+            bindings = <
+                &sk LEFT_SHIFT
+                &caps_word
+            >;
+        };
+        
+        shift_sticky_hold: shift_sticky_hold {
             compatible = "zmk,behavior-hold-tap";
-            label = "SHIFT_STICKY";
-            bindings = <&kp>, <&sk>;
-
-            #binding-cells = <2>;
+            label = "SHIFT_STICKY_HOLD";
+            bindings = <&kp>, <&shift_tap_dance>;
+        
+            #binding-cells = <1>;
             tapping-term-ms = <200>;
             flavor = "hold-preferred";
-            hold-while-undecided;
-            hold-while-undecided-linger;
         };
 
         ROTATE: ROTATE {
@@ -178,7 +188,7 @@
 &kp Q                           &mt LEFT_GUI W  &kp E         &kp R      &kp T                                                                &kp Y        &kp U  &kp I      &kp O    &kp P
 &kp A                           &kp S           &kp D         &kp F      &kp G        &mkp MCLK                                &kp LS(SEMI)   &kp H        &kp J  &kp K      &kp L    &kp MINUS
 &mt_exit_AML_left LEFT_SHIFT Z  &kp X           &kp C         &kp V      &kp B        &mo 2                                    &mo 6          &kp N        &kp M  &kp COMMA  &kp DOT  &mt_exit_AML_right RIGHT_SHIFT SLASH
-&kp LEFT_ALT                    &kp LEFT_WIN    &kp LEFT_ALT  &kp LCTRL  &lt 1 SPACE  &shift_sticky LEFT_SHIFT LEFT_SHIFT      &kp BACKSPACE  &lt 3 ENTER                             &mo 5
+&kp LEFT_ALT                    &kp LEFT_WIN    &kp LEFT_ALT  &kp LCTRL  &lt 1 SPACE  &shift_sticky_hold LEFT_SHIFT            &kp BACKSPACE  &lt 3 ENTER                             &mo 5
             >;
 
             sensor-bindings = <&ROTATE SCRL_DOWN SCRL_UP>;
